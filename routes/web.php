@@ -21,3 +21,7 @@ route::get('post','PagesController@post');
 route::get('blog','PagesController@blog');
 route::get('about','PagesController@about');
 route::get('contactus','PagesController@contactus');
+
+//route::resource('post','SharedController');
+route::post('insertcomment','Ovoblogsimple@insertcomment');
+route::get('post','Ovoblogsimple@post');

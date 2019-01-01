@@ -87,16 +87,28 @@
           <header>
             <h3 class="h6">Leave a reply</h3>
           </header>
-          <form action="#" class="commenting-form">
+
+
+          @if ($errors->any())
+     <div class="alert alert-danger">
+       <ul>
+           @foreach ($errors->all() as $error)
+             <li>{{ $error }}</li>
+           @endforeach
+       </ul>
+     </div><br />
+   @endif
+          <form class="commenting-form" action="{{url('insertcomment')}}" method="post">
+            @csrf
             <div class="row">
               <div class="form-group col-md-6">
-                <input type="text" name="username" id="username" placeholder="Name" class="form-control">
+                <input type="text" name="username" placeholder="Name" class="form-control">
               </div>
               <div class="form-group col-md-6">
-                <input type="email" name="username" id="useremail" placeholder="Email Address (will not be published)" class="form-control">
+                <input type="email" name="useremail"  placeholder="Email Address (will not be published)" class="form-control">
               </div>
               <div class="form-group col-md-12">
-                <textarea name="usercomment" id="usercomment" placeholder="Type your comment" class="form-control"></textarea>
+                <textarea name="usercomment"  placeholder="Type your comment" class="form-control"></textarea>
               </div>
               <div class="form-group col-md-12">
                 <button type="submit" class="btn btn-secondary">Submit Comment</button>

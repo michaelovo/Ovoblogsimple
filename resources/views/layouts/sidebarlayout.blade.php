@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/fontastic.css">
     <!-- Google fonts - Open Sans-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
     <!-- Fancybox-->
     <link rel="stylesheet" href="vendor/@fancyapps/fancybox/jquery.fancybox.min.css">
     <!-- theme stylesheet-->
@@ -181,5 +182,28 @@
     <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
     <script src="vendor/@fancyapps/fancybox/jquery.fancybox.min.js"></script>
     <script src="js/front.js"></script>
+    <script src ="{{asset('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js')}}"></script>
+
+
+
+    <script>
+  @if(Session::has('messege'))
+  	var type="{{Session::get('alert-type','info')}}"
+  	switch(type){
+  		case 'info':
+  			toastr.info("{{Session::get('messege')}}");
+  			break;
+  		case 'success':
+  			toastr.success("{{Session::get('messege')}}");
+  			break;
+  		case 'warning':
+  			toastr.warning("{{Session::get('messege')}}");
+  			break;
+  		case 'error':
+  			toastr.error("{{Session::get('messege')}}");
+  			break;
+  	}
+  	@endif
+  </script>
   </body>
 </html>
