@@ -35,4 +35,5 @@ class PagesController extends Controller
     {
       return view('faceb');
     }
+    
 }

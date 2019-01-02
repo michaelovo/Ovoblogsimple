@@ -5,10 +5,10 @@
 			<ul class="breadcrumb">
 				<li>
 					<i class="icon-home"></i>
-					<a href="index.html">Home</a>
+					<a href="{{ url('index') }}">Home</a>
 					<i class="icon-angle-right"></i>
 				</li>
-				<li><a href="#">Dashboard</a></li>
+				<li><a href="{{ url('index') }}">Dashboard</a></li>
 			</ul>
 
 			<div class="row-fluid">
