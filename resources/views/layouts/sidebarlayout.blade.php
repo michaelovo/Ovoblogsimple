@@ -28,7 +28,7 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
-  <body style="background-color:#333333">
+  <body style="background-color:#000000">
     <header class="header">
       <!-- Main Navbar-->
       <nav class="navbar navbar-expand-lg">
@@ -153,7 +153,7 @@
       </div>
     </div>
     <!-- Page Footer-->
-    <footer class="" style="background-color:#333333;">
+    <footer class="" style="background-color:#000000;">
 
       <div class="copyrights">
         <div class="container">

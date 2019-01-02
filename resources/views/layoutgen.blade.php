@@ -75,7 +75,7 @@
     </header>
 @yield('content')
         <!-- Page Footer-->
-    <footer class="" style="background-color:#333333;">
+    <footer class="" style="background-color:#000000;">
 
       <div class="copyrights">
         <div class="container">
