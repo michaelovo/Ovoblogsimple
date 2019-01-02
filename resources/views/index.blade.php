@@ -31,7 +31,7 @@
             <div class="text-inner d-flex align-items-center">
               <div class="content" style="background-color:white;">
                 <header class="post-header">
-                  <div class="category"><a href="#">Business</a><a href="#">Technology</a></div><a href="{{URL::to('post')}}l">
+                  <div class="category"><a href="#">Business</a><a href="{{URL::to('faceb')}}">Technology</a></div><a href="{{URL::to('faceb')}}">
                     <h2 class="h4">Facebook Rumored To Be Creating Its Own Cryptocurrency</h2></a>
                 </header>
                 <p>Facebook might be exploring opportunities involving stablecoin. If so, it would be the first major company to pursue blockchain, and it stands to succeed given its massive user base.</p>
@@ -44,16 +44,16 @@
               </div>
             </div>
           </div>
-          <div class="image col-lg-5"><img src="img/facebooknews.jpg" alt="..." width="450" height ="200"></div>
+          <div class="image col-lg-5"><a href="{{URL::to('faceb')}}"><img src="img/facebooknews.jpg" alt="..." width="450" height ="200"></a></div>
         </div>
         <!-- Post        -->
         <div class="row d-flex align-items-stretch" style="padding:4px;">
-          <div class="image col-lg-5"><img src="img/pulisic.jpg" alt="..."></div>
+          <div class="image col-lg-5"><a href="{{URL::to('post')}}"><img src="img/pulisic.jpg" alt="..."></a></div>
           <div class="text col-lg-7">
             <div class="text-inner d-flex align-items-center">
               <div class="content">
                 <header class="post-header">
-                  <div class="category"><a href="#">Sports</a><a href="#">Football</a></div><a href="{{URL::to('post')}}">
+                  <div class="category"><a href="{{URL::to('post')}}">Sports</a><a href="{{URL::to('post')}}">Football</a></div><a href="{{URL::to('post')}}">
                     <h2 class="h4">Dortmund star Pulisic to join Chelsea in £58m deal</h2></a>
                 </header>
                 <p>Unable to agree new terms with the attacking midfielder, BVB felt that the deal offered by the Blues was one they could not afford to turn down </p>
@@ -86,7 +86,7 @@
               </div>
             </div>
           </div>
-          <div class="image col-lg-5" style="padding:4px;"><img src="img/eggs.jpg" alt="..."></div>
+          <div class="image col-lg-5" style="padding:4px;"><a href="{{URL::to('post')}}"><img src="img/eggs.jpg" alt="..." width="450" height ="400"></a></div>
         </div>
       </div>
     </section>

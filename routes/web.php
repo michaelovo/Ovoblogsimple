@@ -20,6 +20,7 @@ route::get('index','PagesController@index');
 route::get('post','PagesController@post');
 route::get('blog','PagesController@blog');
 route::get('about','PagesController@about');
+route::get('faceb','PagesController@faceb');
 route::get('contactus','PagesController@contactus');
 
 //route::resource('post','SharedController');

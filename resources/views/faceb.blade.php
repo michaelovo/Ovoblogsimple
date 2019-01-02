@@ -6,12 +6,12 @@
 <main class="post blog-post col-lg-8">
   <div class="container">
     <div class="post-single">
-      <div class="post-thumbnail"><img src="img/pulisic2.jpg" alt="..." class="img-fluid" width="300" height="300"></div>
+      <div class="post-thumbnail"><img src="img/facebooknews.jpg" alt="..." class="img-fluid" width="300" height="300"></div>
       <div class="post-details">
         <div class="post-meta d-flex justify-content-between">
-          <div class="category"><a href="#">Sports</a><a href="#">Football</a></div>
+          <div class="category"><a href="#">Business</a><a href="#">Technology</a></div>
         </div>
-        <h1>Dortmund star Pulisic to join Chelsea in £58m deal<a href="#"><i class="fa fa-bookmark-o"></i></a></h1>
+        <h1>Facebook Rumored To Be Creating Its Own Cryptocurrency<a href="#"><i class="fa fa-bookmark-o"></i></a></h1>
         <div class="post-footer d-flex align-items-center flex-column flex-sm-row"><a href="#" class="author d-flex align-items-center flex-wrap">
             <div class="avatar"><img src="img/ovo1.jpg" alt="..." class="img-fluid"></div>
             <div class="title"><span>John Doe</span></div></a>
@@ -22,53 +22,35 @@
           </div>
         </div>
         <div class="post-body">
-          <p class="lead">Unable to agree new terms with the attacking midfielder, BVB felt that the deal offered by the
-            Blues was one they could not afford to turn down
+          <p class="lead">Facebook might be exploring opportunities involving stablecoin. If so, it would be the first major company to pursue blockchain, and it stands to succeed given its massive user base.  ( Thomas Ulrich | Pixabay )
 </p><p>
 
 
-            Christian Pulisic is joining Chelsea in a £58 million (€64m/$73m) deal that will see him loaned back to Dortmund for the remainder of the 2018-19 season.
+          If Facebook joined the blockchain bandwagon, it would be the largest company to do so. With recent reports alleging the social media company is inching toward its own stablecoin, it's doing exactly just that.
             <br>
             <br/>
-The USA international has impressed since making the breakthrough for the Bundesliga side during the 2015-16 campaign and has since made 115 appearances for the first team, scoring 15 goals and creating another 24.
+The move should perhaps come as no surprise. Facebook did create its own blockchain division back in May, so speculation of a proprietary cryptocurrency was on analysts' minds as early as the first half of this year. Operations in that division have so far been unclear, however. Until now.
 <br>
 <br/>
-He has, however, struggled to hold down a regular starting place in Lucien Favre's side that have charged to the top of the league standings this season, opening a six-point gap to Bayern Munich.
+According to Bloomberg, the division is currently working on a stablecoin that "let[s] users transfer money on its WhatsApp messaging app, focusing first on the remittances market in India."
 
+<br><br>
+"Like many other companies, Facebook is exploring ways to leverage the power of blockchain technology. This new small team is exploring many different applications. We don't have anything further to share."
           </p>
 
-          <
-          <p> <img src="img/pulisic.jpg" alt="..." class="img-fluid"></p>
 
+          <p> <img src="img/facebooknews.jpg" alt="..." class="img-fluid"></p>
+<h3>Facebook Developing Its Own Cryptocurrency</h3>
           <blockquote class="blockquote">
-            <p>It was always Christian's dream to play in the Premier League.
-              That certainly has to do with his American background, and as a result we were
-              unable to extend his contract. Against this background, we have decided to accept an extremely lucrative bid by Chelsea, given the low contract maturity.</p>
-            <footer class="blockquote-footer">BVB sporting director Michael Zorc told the club's official website.
+            <p>the division is currently working on a stablecoin that "let[s] users transfer money on its WhatsApp messaging app, focusing first on the remittances market in India..</p>
+            <footer class="blockquote-footer">Bloomberg.
               <cite title="Source Title">Source Title</cite>
             </footer>
           </blockquote>
-          <p>Indeed, the 20-year-old has featured only four times from the beginning of matches in the league, with his last start coming on September 29.
+          <p>Facebook would be the largest company to pursue a consumer blockchain service. Facebook alone reaches more than 2.2 billion people. That's on top of 1.5 billion on WhatsApp, 1.3 billion on Messenger, and a billion more on Instagram, as TechCrunch notes.
+<br><br>
+As mentioned earlier, the move doesn't come as a surprise. Apart from creating a blockchain division, Facebook also hired former PayPal president David Marcus to run its Messenger app way back in 2014, and as such, there's been much speculation on whether Facebook is planning to make a move in the financial services sector.
 
-With the player unable to agree new terms with the club on a deal that would have expired in 2020, BVB were content to allow him to leave.
-<br><br>
-Zorc holds no fears that the youngster will allow his level to drop in the coming months, despite his big move being secured.
-<br><br>
-"He's a player of perfect character," he added. "I am sure that in the coming months he will do everything in his power to bring his high quality to the team and to achieve his sporting goals with his Borussia Dortmund team-mates."
-<br><br>
-Commenting on the move, Chelsea director Marina Granovskaia told the Blues' official club website: "We are delighted to have signed one of Europe’s most sought-after young players.
-<br><br>
-"Christian has shown his quality during a fantastic spell in Germany and at just 20, we believe he has the potential to become an important Chelsea player for many years to come.
-<br><br>
-"We look forward to welcoming him to Stamford Bridge in the summer and wish him and Dortmund every success for the remainder of the season."
-<br><br>
-As revealed by Goal, Pulisic is a player that the Blues have been tracking for several months amid concerns over the future of star man Eden Hazard, who continues to be linked with Real Madrid.
-<br><br>
-The club are keen to tie the Belgian down to a new deal and make him the highest-paid player in their history, although he is yet to sign on the dotted line and has consistently stated his dream of featuring for the Liga giants.
-<br><br>
-Maurizio Sarri's side were also monitoring the progress of Lyon's Nabil Fekir and Barcelona's Ousmane Dembele as a potential replacement for the Belgium star.
-<br><br>
-Paris Saint-Germain and Liverpool were two of the other clubs looking at Pulisic, but the Reds dropped their interest at the end of November.
 </p>
 
         </div>

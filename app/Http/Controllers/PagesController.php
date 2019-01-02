@@ -30,4 +30,9 @@ class PagesController extends Controller
     {
       return view('contactus');
     }
+
+    public function faceb()
+    {
+      return view('faceb');
+    }
 }
