@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('index');
 
 });
+route::get('/admin',function(){
+  return view('admin.index');
+});
 
 route::get('index','PagesController@index');
 route::get('post','PagesController@post');
