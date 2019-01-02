@@ -99,7 +99,7 @@
             <div class="blog-posts"><a href="#">
                 <div class="item d-flex align-items-center">
                   <div class="image"><img src="img/small-thumbnail-1.jpg" alt="..." class="img-fluid"></div>
-                  <div class="title"><strong>Alberto Savoia Can Teach You About</strong>
+                  <div class="title"><strong>10 common fruits that are underrated</strong>
                     <div class="d-flex align-items-center">
                       <div class="views"><i class="icon-eye"></i> 500</div>
                       <div class="comments"><i class="icon-comment"></i>12</div>
@@ -108,7 +108,7 @@
                 </div></a><a href="#">
                 <div class="item d-flex align-items-center">
                   <div class="image"><img src="img/small-thumbnail-2.jpg" alt="..." class="img-fluid"></div>
-                  <div class="title"><strong>Alberto Savoia Can Teach You About</strong>
+                  <div class="title"><strong>Why you should never give up</strong>
                     <div class="d-flex align-items-center">
                       <div class="views"><i class="icon-eye"></i> 500</div>
                       <div class="comments"><i class="icon-comment"></i>12</div>
@@ -117,7 +117,7 @@
                 </div></a><a href="#">
                 <div class="item d-flex align-items-center">
                   <div class="image"><img src="img/small-thumbnail-3.jpg" alt="..." class="img-fluid"></div>
-                  <div class="title"><strong>Alberto Savoia Can Teach You About</strong>
+                  <div class="title"><strong>Why 2019 is special</strong>
                     <div class="d-flex align-items-center">
                       <div class="views"><i class="icon-eye"></i> 500</div>
                       <div class="comments"><i class="icon-comment"></i>12</div>
