@@ -19,7 +19,7 @@ class CreateBlogpagesTable extends Migration
             $table->string('blog_title');
             $table->string('category');
             $table->string('author');
-            $table->string('page_content');
+            $table->string('page_content',3000);
             $table->timestamps();
         });
     }
