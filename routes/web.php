@@ -19,13 +19,14 @@ route::get('/admin',function(){
   return view('admin.index');
 });
 
-route::get('index','PagesController@index');
+route::get('home','PagesController@home');
 route::get('post','PagesController@post');
 route::get('blog','PagesController@blog');
 route::get('about','PagesController@about');
 route::get('faceb','PagesController@faceb');
 route::get('contactus','PagesController@contactus');
 route::get('index','AdminController@index');
+route::get('pagecreator','AdminController@pagecreator');
 
 
 //route::resource('post','SharedController');

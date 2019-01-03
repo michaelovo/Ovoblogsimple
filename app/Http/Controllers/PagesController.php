@@ -11,9 +11,9 @@ class PagesController extends Controller
       return view('post');
     }
 
-    public function index()
+    public function home()
     {
-      return view('index');
+      return view('home');
     }
 
     public function blog()
@@ -35,5 +35,5 @@ class PagesController extends Controller
     {
       return view('faceb');
     }
-    
+
 }

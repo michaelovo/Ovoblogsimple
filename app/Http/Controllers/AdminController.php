@@ -10,5 +10,11 @@ class AdminController extends Controller
   {
     return view('admin.index');
   }
+
+  // page creator
+  public function pagecreator()
+  {
+    return view('admin.pagecreator');
+  }
     //
 }
