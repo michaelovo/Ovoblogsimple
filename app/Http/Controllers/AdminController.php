@@ -18,16 +18,13 @@ class AdminController extends Controller
     return view('admin.pagecreator');
   }
     //
+    public function pagecreator()
+    {
+      return view('admin.edit_blog');
+    }
 
 
 
-    // to view all blogpages
-    public function Allblogs()
-{
 
-// HERE ELOQUENT MODEL IS USED TO RETRIEVED DATA FROM THE DATABASE
-$data=blogpage::all(); //the 'contact' here is the model name
-  return view('admin.all_blogs')->with('all_contacs',$data);
 
-}
 }

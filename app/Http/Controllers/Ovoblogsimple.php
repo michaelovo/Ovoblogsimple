@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\comment;
+use App\blogpage;
+
 use Illuminate\Support\Facades\DB;
 
 class Ovoblogsimple extends Controller
@@ -41,8 +43,95 @@ class Ovoblogsimple extends Controller
           return view('post');
 
         }
+        public function pagecreator()
+        {
+          return view('admin.pagecreator');
+        }
 
 
 
+// to create blog page Contents
+public function createblog(Request $request)
+{
+  $request->validate([
+    'pagename'=>'required',
+    'blog_title'=> 'required',
+    'category' => 'required',
+    'author' => 'required',
+    'page_content' => 'required'
+  ]);
+      $data = new blogpage;
+
+      $data->pagename=$request->pagename;
+      $data->blog_title=$request->blog_title;
+      $data->category=$request->category;
+      $data->author=$request->author;
+      $data->page_content=$request->page_content;
+      $data->save();
+
+      if($data)
+      {
+        $notification=array(
+          'messege'=>'Blog Added Successfully',
+          'alert-type'=>'success'
+        );
+        return Redirect()->back()->with($notification);
+      }
+      else
+      {
+        echo "error!";
+      }
+
+  }
+
+
+
+
+
+
+        // to view all blogpages
+        public function Allblogs()
+      {
+
+      // HERE ELOQUENT MODEL IS USED TO RETRIEVED DATA FROM THE DATABASE
+      $data=blogpage::all(); //the 'contact' here is the model name
+      return view('admin.all_blogs')->with('all_contacs',$data);
+
+      }
+
+      // to edit individual blog Contents
+      public function editblog($id)
+  {
+    $edit=DB::table('blogpages')->where('id',$id)->first();
+    return view('admin.edit_blog')->with('sngle_edit',$edit);
+  }
+
+  // to upadte edited blog file_get_contents
+  public function updateblog(Request $request,$id)
+    {
+        //USING ELOQUENT Model
+      $data=blogpage::find($id);
+      $data->pagename=$request->pagename;
+      $data->blog_title=$request->blog_title;
+      $data->category=$request->category;
+      $data->author=$request->author;
+      $data->page_content=$request->page_content;
+      $data->save();
+
+
+
+            if($data->save())
+            {
+              $notification=array(
+                 'messege'=>'Contact Updated Successfully',
+                  'alert-type'=>'success'
+                 );
+                 return Redirect()->route('all_blogs')->with($notification);
+           }
+           else
+           {
+           echo "error!";
+          }
+    }
 
 }

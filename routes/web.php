@@ -25,10 +25,17 @@ route::get('blog','PagesController@blog');
 route::get('about','PagesController@about');
 route::get('faceb','PagesController@faceb');
 route::get('contactus','PagesController@contactus');
+
 route::get('index','AdminController@index');
 route::get('pagecreator','AdminController@pagecreator');
+
 route::get('all_blogs','Ovoblogsimple@Allblogs');
-route::get('all_blogs','AdminController@Allblogs');//->name('all_blogs');
+route::get('edit_blog/{id}','Ovoblogsimple@editblog');
+route::post('updateblog/{id}','Ovoblogsimple@updateblog');
+
+route::post('createblog','Ovoblogsimple@createblog');
+route::get('pagecreator','Ovoblogsimple@pagecreator');
+//route::get('all_blogs','AdminController@Allblogs');//->name('all_blogs');
 
 
 //route::resource('post','SharedController');
