@@ -27,6 +27,8 @@ route::get('faceb','PagesController@faceb');
 route::get('contactus','PagesController@contactus');
 route::get('index','AdminController@index');
 route::get('pagecreator','AdminController@pagecreator');
+route::get('all_blogs','Ovoblogsimple@Allblogs');
+route::get('all_blogs','AdminController@Allblogs');//->name('all_blogs');
 
 
 //route::resource('post','SharedController');

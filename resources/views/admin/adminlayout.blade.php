@@ -338,7 +338,7 @@
 				<div class="nav-collapse sidebar-nav">
 					<ul class="nav nav-tabs nav-stacked main-menu">
 						<li><a href="{{ url('index') }}"><i class="icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>
-						<li><a href="#"><i class="icon-envelope"></i><span class="hidden-tablet"> All contacts</span></a></li>
+						<li><a href="{{URL::to('all_blogs')}}"><i class="icon-envelope"></i><span class="hidden-tablet"> All blogs</span></a></li>
 						<li><a href="{{URL::to('pagecreator')}}"><i class="icon-tasks"></i><span class="hidden-tablet"> Add page</span></a></li>
 						<li><a href="ui.html"><i class="icon-eye-open"></i><span class="hidden-tablet"> UI Features</span></a></li>
 						<li><a href="widgets.html"><i class="icon-dashboard"></i><span class="hidden-tablet"> Widgets</span></a></li>
