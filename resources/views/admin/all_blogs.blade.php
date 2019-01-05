@@ -25,7 +25,7 @@
       <td>
         <a href="{{URL::to('edit_blog/'.$v_contacts->id)}}" class="btn btn-warning">Edit |</a>
         <a href="{{URL::to('view_blog/'.$v_contacts->id)}}" class="btn btn-info">View |</a>
-        <a href="{{URL::to('delete_contact/'.$v_contacts->id)}}" id="delete" class="btn btn-danger">Delete</a>
+        <a href="{{URL::to('delete_blog/'.$v_contacts->id)}}" id="delete" class="btn btn-danger">Delete</a>
       </td>
     </tr>
   @endforeach

@@ -123,10 +123,11 @@ public function createblog(Request $request)
             if($data->save())
             {
               $notification=array(
-                 'messege'=>'Contact Updated Successfully',
+                 'messege'=>'Blog Updated Successfully',
                   'alert-type'=>'success'
                  );
-                 return Redirect()->route('all_blogs')->with($notification);
+                 //return Redirect()->route('admin.all_blogs')->with($notification);
+                   return Redirect()->back()->with($notification);
            }
            else
            {
@@ -140,5 +141,28 @@ public function createblog(Request $request)
           $view=blogpage::find($id)->first();// USING ELOQUENT MODEL
       return view('admin.view_blog')->with('sngle_view',$view);
     }
+
+
+    //TO DELETE Blog
+    public function deleteblog($id)
+{
+
+    //TO DELETE CONTACT FROM DATABASE USING Eloquent MODEL
+    $delete=blogpage::find($id)->delete();
+  if($delete)
+  {
+    $notification=array(
+       'messege'=>'Blog Deleted Successfully',
+        'alert-type'=>'success'
+       );
+    return Redirect()->back()->with($notification);
+    //return route('all_contacts')->with($notification);
+  }
+  else
+  {
+    echo "error!";
+  }
+}
+
 
 }

@@ -18,7 +18,7 @@ class AdminController extends Controller
     return view('admin.pagecreator');
   }
     //
-    public function pagecreator()
+    public function edit_blog()
     {
       return view('admin.edit_blog');
     }

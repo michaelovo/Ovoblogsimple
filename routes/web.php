@@ -33,6 +33,8 @@ route::get('all_blogs','Ovoblogsimple@Allblogs');
 route::get('edit_blog/{id}','Ovoblogsimple@editblog');
 route::post('updateblog/{id}','Ovoblogsimple@updateblog');
 route::get('view_blog/{id}','Ovoblogsimple@viewblog');
+route::get('delete_blog/{id}','Ovoblogsimple@deleteblog');
+
 
 route::post('createblog','Ovoblogsimple@createblog');
 route::get('pagecreator','Ovoblogsimple@pagecreator');
