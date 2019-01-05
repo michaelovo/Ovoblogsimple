@@ -133,5 +133,12 @@ public function createblog(Request $request)
            echo "error!";
           }
     }
+// view blog
+    public function viewblog($id)
+    {
+
+          $view=blogpage::find($id)->first();// USING ELOQUENT MODEL
+      return view('admin.view_blog')->with('sngle_view',$view);
+    }
 
 }
