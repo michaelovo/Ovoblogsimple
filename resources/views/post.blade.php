@@ -11,7 +11,9 @@
         <div class="post-meta d-flex justify-content-between">
           <div class="category"><a href="#">Sports</a><a href="#">Football</a></div>
         </div>
-        <h1>Dortmund star Pulisic to join Chelsea in £58m deal<a href="#"><i class="fa fa-bookmark-o"></i></a></h1>
+        <h1>
+
+          Dortmund star Pulisic to join Chelsea in £58m deal<a href="#"><i class="fa fa-bookmark-o"></i></a></h1>
         <div class="post-footer d-flex align-items-center flex-column flex-sm-row"><a href="#" class="author d-flex align-items-center flex-wrap">
             <div class="avatar"><img src="img/ovo1.jpg" alt="..." class="img-fluid"></div>
             <div class="title"><span>John Doe</span></div></a>
