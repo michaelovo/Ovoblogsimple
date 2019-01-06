@@ -11,9 +11,9 @@ class PagesController extends Controller
       return view('post');
     }
 
-    public function home()
+    public function landing()
     {
-      return view('home');
+      return view('landing');
     }
 
     public function blog()

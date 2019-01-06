@@ -23,6 +23,8 @@ class AdminController extends Controller
       return view('admin.edit_blog');
     }
 
+  
+
 
 
 

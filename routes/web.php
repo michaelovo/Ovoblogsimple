@@ -12,14 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('landing');
 
 });
 route::get('/admin',function(){
-  return view('admin.index');
+  return view('auth.login');
 });
 
-route::get('home','PagesController@home');
+route::get('landing','PagesController@landing');
 route::get('post','PagesController@post');
 route::get('blog','PagesController@blog');
 route::get('about','PagesController@about');
@@ -28,6 +28,7 @@ route::get('contactus','PagesController@contactus');
 
 route::get('index','AdminController@index');
 route::get('pagecreator','AdminController@pagecreator');
+//route::get('welcome','AdminController@welcome');
 
 route::get('all_blogs','Ovoblogsimple@Allblogs');
 route::get('edit_blog/{id}','Ovoblogsimple@editblog');
@@ -44,3 +45,8 @@ route::get('pagecreator','Ovoblogsimple@pagecreator');
 //route::resource('post','SharedController');
 route::post('insertcomment','Ovoblogsimple@insertcomment');
 route::get('post','Ovoblogsimple@post');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/homeauth', 'HomeController@homeauth')->name('homeauth');

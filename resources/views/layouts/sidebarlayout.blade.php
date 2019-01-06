@@ -57,7 +57,7 @@
           <!-- Navbar Menu -->
           <div id="navbarcollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a href="{{URL::to('home')}}" class="nav-link ">Home</a>
+              <li class="nav-item"><a href="{{URL::to('landing')}}" class="nav-link ">Home</a>
               </li>
               <li class="nav-item"><a href="{{URL::to('blog')}}" class="nav-link ">Blog</a>
               </li>
