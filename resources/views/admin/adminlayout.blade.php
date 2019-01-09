@@ -7,8 +7,8 @@
 	<!-- start: Meta -->
 	<meta charset="utf-8">
 	<title>The Michaels Blog |Control Panel</title>
-	<meta name="description" content="Metro Admin Template.">
-	<meta name="author" content="Łukasz Holeczek">
+	<meta name="description" content="The michaels Admin Template.">
+	<meta name="author" content="Michael ovo">
 	<meta name="keyword" content="Metro, Metro UI, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 	<!-- end: Meta -->
 
@@ -46,7 +46,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="index.html"><span>Metro</span></a>
+				<a class="brand" href="index.html"><span>Ovoblogsimple</span></a>
 
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
